@@ -1,0 +1,97 @@
+.stickyFooter {
+	position: absolute;
+	bottom: 0px;
+	width: 100%
+}
+
+.welcome-message {
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	color: #FFFFFF;
+	color: rgba(255, 255, 255, 1);
+}
+
+.card-label {
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+	color: #333333;
+	color: rgb(51, 51, 51);
+}
+
+.actions-bar {
+	background: #FF4E00;
+	background: rgba(255, 78, 0, 1);
+	height: 40px;
+}
+
+.body {
+	background: #EFEFEB;
+	background: rgba(239, 239, 235, 1);
+}
+
+.timestamp {
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	color: #333333;
+	color: rgb(51, 51, 51);
+}
+
+.welcome-banner {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	background: #F1C40E;
+	background: rgba(241, 196, 14, 1);
+	height: 60px;
+	line-height: 60px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15); 
+	lter: progid:DXImageTransform.Microsoft.dropshadow(OX=0, OY=0, Color='#000000');
+}
+
+.wrapper {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.wrapper > * { 
+	ex: 1 auto;
+	margin: 15px;
+	min-width: 280px;
+	max-width: 370px;
+	height: 300px;
+}
+
+.card {
+	text-align:center;
+	position:relative;
+	background: #FFF;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, .15);
+}
+
+.card Object
+{
+	margin:10px auto;
+}
+.card .meter
+{
+	margin: auto 5px;
+}
+.card .actions-bar
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
