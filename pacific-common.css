@@ -1,0 +1,382 @@
+/**
+********** Common Pacific base fonts, color and size  ************    
+*/
+
+body,button,input,select,textarea {
+	font-family: Lato, Helvetica, Arial, Tahoma, sans-serif;
+	color: #4c4c4c;
+	font-size: 12px;
+}
+
+.pacific-default-style {
+	font-family: Lato, Helvetica, Arial, Tahoma, sans-serif;
+	color: #4c4c4c;
+	font-size: 12px;
+}
+
+/**
+********** Common Pacific Header  ************    
+*/
+
+.pacific-header {
+	background-color: #54555B;	
+	height: 35px;
+	width: 100%;
+}
+
+.pacific-logo {
+	background-image: url("../images/pacific-logo.png");
+	width: 237px;
+	height: 34px;
+	margin-left: 8px;
+	align: left;
+	float: left; 
+}
+
+.pacific-profile-menu {	
+	float: right;
+	align: right;
+}
+
+/**
+********** Common Pacific Second level elements  ************    
+*/
+
+.pacific-product-header {
+	color: #fff;
+	background-color: #0A425B;	
+	height: 47px;
+	width: 100%;
+	font-size: 28px;
+	line-height: 47px;
+	vertical-align: middle;
+}
+
+.pacific-product-logo {	
+	align : left;
+	border: none;
+}
+
+/**
+********** Common Pacific Page Title   ********************    
+*/
+
+.pacific-page-title, .pacific-page-title h1 {
+	width: 100%;
+	font-weight: 300;
+	font-size: 38px;
+	color: #4C4C4C;
+	align: left;
+}
+
+/**
+********** Common Pacific Section Title  ********************    
+*/
+
+.pacific-section-title, .pacific-section-title h2 {
+	width: 100%;
+	font-weight: 300;
+	font-size: 26px;
+	color: #4C4C4C;
+	align: left;
+}
+
+/**
+********** Common Pacific Buttons  ********************    
+*/
+.pacific-button, .extjs-pacific-button button, .pacific-bootstrap .btn  {
+	height: 40px;
+	min-width:30px;
+	font-size: 21px;
+	border: none;
+	text-decoration: none;
+	background-color: #ff4e00;
+	line-height:40px;
+	padding: 0 20px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	border-radius:0px;
+	text-shadow: none;
+	background-image : none;
+}
+
+/** rollbase primary button is an exception; as opposed to pacific style **/
+.pacific-bootstrap .btn.btn-primary {
+	background-color: #ff4e00;
+	color: #fff;
+	border: none;
+}
+
+
+.pacific-button:hover, .extjs-pacific-button button:hover, body.pacific-bootstrap .btn-primary:hover, .pacific-button:focus, .extjs-pacific-button button:focus, body.pacific-bootstrap .btn-primary:focus {
+	color: #fff;
+	background-color: #ff5f01;
+	box-shadow: 0 2px #cccccc;
+}
+
+.pacific-button:active, .extjs-pacific-button button:active, body.pacific-bootstrap .btn-primary:active  {
+	color: #fff;
+	background-color: #e54700;
+ 	box-shadow: 0 -2px #b53a00;
+}
+
+
+/**
+********** Common Pacific Buttons, for small 30px ********************    
+*/
+
+.pacific-button.small, .extjs-pacific-button.small button, .pacific-bootstrap .btn-small {
+	padding: 0 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+/** rollbase small button with caret **/
+.pacific-bootstrap .btn-mini .caret, .pacific-bootstrap .btn-small .caret {
+    margin-top: 12px;
+}
+
+
+.pacific-button.disabled, .pacific-button.disabled:hover, .pacific-button.disabled:focus, .pacific-button.disabled:active, .extjs-pacific-button.disabled button, .extjs-pacific-button.disabled button:hover, .extjs-pacific-button.disabled button:focus, .extjs-pacific-button.disabled button:active,
+body.pacific-bootstrap .btn-primary:disabled, body.pacific-bootstrap .btn-primary.disabled,  body.pacific-bootstrap .btn-primary.disabled:hover, body.pacific-bootstrap .btn-primary.disabled:focus, body.pacific-bootstrap .btn-primary.disabled:active
+{
+	background-color: #ff4e00;
+	filter: Alpha(opacity = 40) !important;
+	opacity: .4 !important;
+	box-shadow:none;
+	cursor: default;
+} 
+
+/**
+********** Common Pacific Secondray Buttons  ********************    
+*/
+
+.pacific-button.secondary, .extjs-pacific-button.secondary button, .pacific-bootstrap .btn.btn-secondary {
+	background-color: #777777;
+}
+
+/** rollbase primary button is also an exception; as opposed to pacific style **/
+.pacific-bootstrap .btn.btn-secondary {
+	color: #fff;
+	border: none;
+}
+
+.pacific-button.secondary:hover, .extjs-pacific-button.secondary button:hover, .pacific-bootstrap .btn.btn-secondary:hover, .pacific-button.secondary:focus, .extjs-pacific-button.secondary button:focus, .pacific-bootstrap .btn.btn-secondary:focus {
+	background-color: #B1B1B1;
+	box-shadow: 0 2px #cccccc;
+	outline: none;
+}
+
+.pacific-button.secondary.disabled, .extjs-pacific-button.secondary.disabled:hover, .pacific-button.secondary.disabled:focus, .pacific-button.secondary.disabled:active, .extjs-pacific-button.secondary.disabled button, .extjs-pacific-button.secondary.disabled button:hover, .extjs-pacific-button.secondary.disabled button:focus, .extjs-pacific-button.secondary.disabled button:active, 
+.pacific-bootstrap .btn.btn-secondary:disabled, .pacific-bootstrap .btn.btn-secondary.disabled, .pacific-bootstrap .btn.btn-secondary.disabled:hover, .pacific-bootstrap .btn.btn-secondary.disabled:focus, .pacific-bootstrap .btn.btn-secondary.disabled:active {
+	background-color: #777777;
+	filter: Alpha(opacity = 40);
+	opacity: .4;
+	box-shadow:none;
+}
+
+.pacific-button.secondary:active, .extjs-pacific-button.secondary button:active, .pacific-bootstrap .btn.btn-secondary:active {
+	background-color: #6b6b6b;
+	box-shadow: 0 -2px #565656;
+} 
+
+/**
+********** Common Section Divider  ************
+*/
+
+.pacific-line-separator, .extjs-pacific-line-separator hr {
+	border-bottom:1pt solid #cccccc;	
+	margin-top:5px;	
+	margin-bottom:20px;
+}
+
+/**
+********** Common Pacific hyperlinks  ************    
+*/
+
+.pacific-hyperlink , .pacific-hyperlink a{
+	color: #1895c1;
+	text-decoration: none;
+}
+
+.pacific-hyperlink.dark{
+	color: blue;
+}
+
+.pacific-hyperlink:hover{
+	text-decoration: underline;
+}
+
+/**
+********** Common Pacific Content  ************    
+*/
+.pacific-content-box {
+	padding:10px;
+}
+
+/**
+********** Common Pacific Breadcrumbs  ************    
+*/
+
+.pacific-breadcrumbs {
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: 30px;	
+}
+
+.pacific-breadcrumbs li {
+	color: #1895c1;
+	list-style: none;
+	display: inline;
+}
+
+.pacific-breadcrumbs li:last-child {
+	color: #54565b;
+}
+
+.pacific-breadcrumbs li:after {
+	content: " \003e ";
+	padding: 0px 5px;
+	color: #000;
+	letter-spacing: -1.9px;
+}
+
+.pacific-breadcrumbs li:last-child:after {
+	content: "";
+}
+
+.pacific-breadcrumbs a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.pacific-breadcrumbs a:hover {	
+	text-decoration: underline;
+}
+
+/**
+********** Common Pacific Loading/ Progress bars  ************    
+*/
+.pacific-loading-component {
+	background: url("../images/ajax-loader.gif") no-repeat;
+	height: 25px;
+	background-size: 25px 25px;	
+	vertical-align: middle;
+	line-height: 25px; 
+	font-size: 12px;
+	color: #4c4c4c;
+}
+
+.pacific-loading-component span, .pacific-loading-component p{
+	padding-left: 35px;
+}
+
+.pacific-loading-component.modal{
+	height: 34px;
+	line-height: 34px;
+	background-size: 34px 34px;
+	font-size: 17px;
+}
+
+.pacific-loading-component.modal span {
+	padding-left: 46px;
+}
+
+/**
+********** Common Pacific Error/ alerts / warning   ************    
+*/
+.pacific-error {
+	color: #dc0000;
+	background: url("../images/warning.png") no-repeat;
+	height:16px;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+.pacific-error span, .pacific-error p {
+	padding-left: 26px;	
+}
+
+.pacific-error.pacific-form-field {
+	height: 26px;
+	border : 1px solid;
+	background: rgba(220, 0, 0, .05);	
+}
+
+/**
+********** Common Pacific Success messages  ************    
+*/
+
+.pacific-success {	
+	font-size: 13px;
+	line-height:32px;
+	background-color: #1eb29d;
+	min-height:32px;
+	color: #fff;
+	vertical-align: middle;	
+}
+
+.pacific-success .icon{
+	background: url("../images/success.png") no-repeat;
+	height:16px;
+	width: 16px;
+	float: left;
+	margin: 8px 15px 8px 15px;
+}
+.pacific-success .close {
+	background: url("../images/close_default.png") no-repeat;
+	height:16px;
+	width: 16px;
+	float: right;
+	margin: 8px 15px;
+}
+
+.pacific-success .close:hover {
+	background: url("../images/close_over.png") no-repeat;
+	height:16px;
+}
+
+/**
+********** Common Pacific overlay pop ups  ************    
+*/
+
+.pacific-popup-header {
+	background-color: #0a425b;
+	font-size: 26px;
+	font-weight:300;
+	color: #ffffff;
+	line-height: 68px;
+	padding :0 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/* This is not clear in the spec, added this as a placeholder */
+
+.pacific-popup-header.close-icon{
+	align: right;
+}
+
+.pacific-popup-content {
+	padding: 20px 20px 30px 20px;	
+}
+
+/**
+********** Common Pacific Footer  ************    
+*/
+
+.pacific-footer {
+	background-color: #54555B;
+	height: 30px;	
+	font-size : 10px;
+	color: #fff;	
+	line-height:30px;
+	vertical-align:middle;
+}
+
+.pacific-footer .pacific-hyperlink, .pacific-footer .pacific-hyperlink a{
+	color: #fff;	
+}

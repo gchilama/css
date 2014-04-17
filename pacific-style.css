@@ -1,0 +1,292 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: Lato, "Helvetica W01 Roman", Helvetica, Arial, sans-serif;
+    color: #4c4c4c;
+    font-size:14px;
+    font-weight: 300;
+    background: url('../images/pacific/pacificBG.jpg') no-repeat center center  fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container {
+    margin: 20px auto;
+    width:524px;
+}
+.grey-band {
+    background: none repeat scroll 0 0 #54565b;
+    height: 34px;
+    min-width: 940px;
+}
+.logo {
+    margin-left:10px;
+    font-size:24px;
+    border:0;
+    width:237px;
+    height:34px;
+}
+
+.login {
+    position: relative;
+    margin: 0 auto;
+    width: 524px;
+    background: white;
+}
+.login  label {
+    font-size: 18px;
+    color: #4c4c4c;
+    cursor: pointer;
+    margin:10px 0 10px 0;
+    display:block;
+}
+.login a {
+    text-decoration:none;
+    color:#2798c3;
+}
+.login a:hover {
+    text-decoration:underline;
+    color:#0A425B;
+}
+.box-top {
+    margin: 0  0;
+    color: #ffffff;
+    text-align: center;
+    background: #0a425b;
+    min-height:134px;
+}
+.box-middle {
+    padding: 20px 23px;
+    background:#ffffff;
+    min-height:252px;
+}
+.box-middle .row {
+   padding-bottom:10px;
+}
+/* Used on login UI error pages */
+.box-middle .message h3 {
+    font-family: Lato, "Helvetica W01 Roman", Helvetica, Arial, sans-serif;
+    font-size:18px;
+    margin-top:20px;
+    line-height:1.2;
+}
+/* Used on login UI error pages */
+.box-middle .message p {
+    margin-top:20px;
+}
+
+/* Used on new_org page */
+.box-middle input[type=button] {
+    margin: 20px 10px 0 0;
+    height: 46px;
+    width: 125px;
+    font-size: 18px;
+    color: #fff;
+    background: #ff4e00;
+    border:0;
+    cursor:pointer;
+}
+
+.box-bottom {
+    font-size:18px;
+    font-weight:400;
+    background: url('../images/pacific/pinstripeBG.png') no-repeat ;
+    min-height:142px;
+}
+.box-top  h1{
+    font-size:50px;
+    padding-top:34px;
+    font-weight:300;
+}
+.box-top span{
+    font-size:22px;
+    display:block;
+    font-weight:bold;
+    padding-top:10px;
+}
+.login p {
+    font-family: Lato, "Helvetica W01 Roman", Helvetica, Arial, sans-serif;
+    color: #4c4c4c;
+    font-size:18px;
+    font-weight: 300;
+    line-height:1.5;
+}
+.login h2 {
+    font-family: Lato, "Helvetica W01 Roman", Helvetica, Arial, sans-serif;
+    color: #4c4c4c;
+    font-size:21px;
+    font-weight: 300;
+    margin-bottom:12px;
+}
+.login ul {
+    font-family: Lato, "Helvetica W01 Roman", Helvetica, Arial, sans-serif;
+    color: #4c4c4c;
+    font-size:16px;
+    font-weight: 300;
+    list-style-type:disc;
+    margin-left: 20px;
+    line-height:1.5;
+    margin-bottom: 34px;
+}
+.login ul li{color: #ff4e00;}
+.login ul li > span {color: #4c4c4c !important;}
+.login label span{display:block;margin:10px 0;}
+.login input[type=text], .login input[type=password] {
+    width: 478px;
+    height: 48px;
+    color: #404040;
+    background: #fbfbfb;
+    border: 1px solid #dcdcdc;
+    font-size:18px;
+    padding: 5px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+.login  input[type=text]:focus, .login  input[type=password]:focus {
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0;
+}
+.login  input[type=submit] {
+    height: 46px;
+    font-size: 18px;
+    color: #fff;
+    background: #ff4e00;
+    width:416px;
+    border:0;
+    cursor:pointer;
+}
+.forgot {
+    margin-top:7px;
+    line-height:1.5;
+    font-size:18px;
+    font-weight:400;
+}
+.noID {
+    text-align:center;
+    color:4c4c4c;
+}
+.footer {
+    margin: 14px 0;
+    font-size: 11px;
+    text-align: center;
+    color:#ffffff; /* fallback for older browsers*/
+    color: rgba(255, 255, 255, 0.5);
+    %color:#ffffff;
+}
+.footer-links a {
+    color:#ffffff; /* fallback for older browsers*/
+    color: rgba(255, 255, 255, 0.5);
+    %color:#ffffff;
+    text-decoration: none;
+    margin:0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    margin:10px 0;
+}
+.lt-ie9 input[type=text], .lt-ie9 input[type=password] {
+    line-height: 34px;
+}
+.agreement{font-size:18px;margin:20px 0 15px 0;}
+.small-button{width:125px !important;height: 46px !important;margin-left:10px; !important}
+.long-button{width:416px;height: 46px;}
+.orange{background: #ff4e00 !important}
+.grey{background: #7e7e7e !important}
+.submit-cancel{padding: 48px 54px 48px 0;float:right}
+.submit{padding:32px 54px 24px 54px;}
+.msg {
+    margin-top:43px;
+}
+.box-bottom .row {
+    padding:32px 54px 24px 54px;
+}
+.alert-error, .alert-warning, .alert-informational, .alert-success, .alert-unknown {
+    padding:10px;
+    margin-bottom:5px;
+    text-shadow:0 1px 0 rgba(255,255,255,0.5);
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px
+}
+.alert-error {
+    background-color:#f2dede;
+    border:1px solid #eed3d7;
+}
+.alert-warning {
+    background-color:#ffe0b2;
+    border:1px solid #ff9900;
+}
+.alert-informational {
+    background-color:#ebf0ff;
+    border:1px solid #7fb2ff;
+}
+.alert-success {
+    background-color:#e6f5e6;
+    border:1px solid #b2e0b2;
+}
+.alert-unknown  {
+    background-color:#e0ccff;
+    border:1px solid #b280ff;
+}
+.alert-error h4 {
+    color:#b94a48
+}
+.alert-warning h4 {
+    color:#ff6600
+}
+.alert-informational h4 {
+    color:#0000ff
+}
+.alert-success h4 {
+    color:#248f24
+}
+.alert-unknown h4 {
+    color:#3d0099
+}

@@ -1,0 +1,32 @@
+html,body {
+	font-family: Lato, Helvetica, Arial, Tahoma, sans-serif;
+	height: 100%;
+	width: 100%;
+	margin-top: -2px;
+}
+
+body {
+	background-colour: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.pacific-popup-header {
+	height : 46px;
+}
+
+.pacific-popup-header h4 {
+	line-height : 44px;
+	margin-top : 0px;
+}
+
+.modal-content {
+	border-radius : 0px;
+}
+
+.modal-body .row label{
+	padding-right : 150px;
+	padding-left : 40px;
+}
