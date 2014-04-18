@@ -6,7 +6,7 @@ html,body {
 }
 
 
-/* Sticky footer content. Include a div inside body with class wrapper div. Given the class of footer  */
+/* Sticky footer content. Include a div inside body with class wrapper div. Given the class of footer.  */
 
 .wrapperdiv {
 	margin : auto;
