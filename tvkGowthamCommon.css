@@ -8,6 +8,26 @@ html,body {
 
 /* Sticky footer content. Include a div inside body with class wrapper div. Given the class of footer.  */
 
+.tool-tip
+{
+background : #FFFECD;
+background : rgba(255, 254, 205, 1);
+border-style : solid;
+border-color : #C6C6C6;
+border-color : rgba(198, 198, 198, 1);
+border-width : 1px;
+padding: 15px;
+}
+
+.tip-text
+{
+font-family : Lato;
+font-size : 13px;
+font-weight: 400;
+color : #333333;
+color : rgb(51, 51, 51);
+}
+
 .wrapperdiv {
 	margin : auto;
 	position : relative;
@@ -74,11 +94,6 @@ html,body {
 		endColorstr='#1895C1', GradientType=0);
 }
 
-.stickyFooter {
-	position: absolute;
-	bottom: 0px;
-	width: 100%
-}
 
 .welcome-message {
 	font-family: Lato;
