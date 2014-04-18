@@ -1,3 +1,77 @@
+html,body {
+	font-family: Lato, Helvetica, Arial, Tahoma, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+.create-account-header {
+	background-color: #0a425b;
+	font-family: Lato;
+	font-size: 36px;
+	font-weight: 300;
+	color: #FFFFFF;
+	color: rgb(255, 255, 255);
+}
+
+.registration {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: -35px auto -34px;
+	/* the bottom margin is the negative value of the footer's height */
+}
+
+.register {
+	position: relative;
+	margin: 0 auto;
+	width: 524px;
+	background: white;
+}
+
+.footer {
+	position: absolute;
+	bottom : 0px;
+	background: #54555B;
+	background: rgba(84, 85, 91, 1);
+	height: 34px;
+	width: 100%;
+}
+
+.pacific-background-gradient {
+	background: -moz-linear-gradient(50% 0% -90deg, rgba(174, 218, 233, 1)
+		0%, rgba(146, 205, 225, 1) 8.27%, rgba(109, 188, 216, 1) 21.13%,
+		rgba(78, 174, 207, 1) 34.6%, rgba(54, 163, 201, 1) 48.65%,
+		rgba(37, 155, 197, 1) 63.52%, rgba(27, 150, 194, 1) 79.77%,
+		rgba(24, 149, 193, 1) 100%);
+	background: -webkit-linear-gradient(-90deg, rgba(174, 218, 233, 1) 0%,
+		rgba(146, 205, 225, 1) 8.27%, rgba(109, 188, 216, 1) 21.13%,
+		rgba(78, 174, 207, 1) 34.6%, rgba(54, 163, 201, 1) 48.65%,
+		rgba(37, 155, 197, 1) 63.52%, rgba(27, 150, 194, 1) 79.77%,
+		rgba(24, 149, 193, 1) 100%);
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0, rgba(174, 218,
+		233, 1)), color-stop(0.0827, rgba(146, 205, 225, 1)),
+		color-stop(0.2113, rgba(109, 188, 216, 1)),
+		color-stop(0.346, rgba(78, 174, 207, 1)),
+		color-stop(0.4865, rgba(54, 163, 201, 1)),
+		color-stop(0.6352, rgba(37, 155, 197, 1)),
+		color-stop(0.7977, rgba(27, 150, 194, 1)),
+		color-stop(1, rgba(24, 149, 193, 1)));
+	background: -ms-linear-gradient(-90deg, rgba(174, 218, 233, 1) 0%,
+		rgba(146, 205, 225, 1) 8.27%, rgba(109, 188, 216, 1) 21.13%,
+		rgba(78, 174, 207, 1) 34.6%, rgba(54, 163, 201, 1) 48.65%,
+		rgba(37, 155, 197, 1) 63.52%, rgba(27, 150, 194, 1) 79.77%,
+		rgba(24, 149, 193, 1) 100%);
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#AEDAE9', endColorstr='#1895C1' ,GradientType=0)";
+	background: linear-gradient(180deg, rgba(174, 218, 233, 1) 0%,
+		rgba(146, 205, 225, 1) 8.27%, rgba(109, 188, 216, 1) 21.13%,
+		rgba(78, 174, 207, 1) 34.6%, rgba(54, 163, 201, 1) 48.65%,
+		rgba(37, 155, 197, 1) 63.52%, rgba(27, 150, 194, 1) 79.77%,
+		rgba(24, 149, 193, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AEDAE9',
+		endColorstr='#1895C1', GradientType=0);
+}
+
 .stickyFooter {
 	position: absolute;
 	bottom: 0px;
@@ -26,6 +100,7 @@
 	height: 40px;
 }
 
+/* We Should not do this. We should write a class and then apply it to the body. Because always body is not of the same colour */
 .body {
 	background: #EFEFEB;
 	background: rgba(239, 239, 235, 1);
@@ -55,18 +130,18 @@
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
-	-moz-box-pack:center;
-	-moz-box-align:center;
-	-ms-flex-pack:center;
-	-ms-flex-align:center;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
 	display: flex;
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
-.wrapper > * { 
+.wrapper>* { 
 	ex: 1 auto;
 	margin: 15px;
 	min-width: 280px;
@@ -75,23 +150,22 @@
 }
 
 .card {
-	text-align:center;
-	position:relative;
+	text-align: center;
+	position: relative;
 	background: #FFF;
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, .15);
 }
 
-.card Object
-{
-	margin:10px auto;
+.card Object {
+	margin: 10px auto;
 }
-.card .meter
-{
+
+.card .meter {
 	margin: auto 5px;
 }
-.card .actions-bar
-{
-	position:absolute;
-	bottom:0;
-	width:100%;
+
+.card .actions-bar {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }

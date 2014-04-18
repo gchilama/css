@@ -5,20 +5,12 @@ html,body {
 	margin-top: -2px;
 }
 
-body {
-	background: url('../images/pacificBG.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 
-.container {
+/* .container {
 	margin: 20px auto;
 	width: 755px;
 }
-
+ */
 .box-top {
 	margin: 0 0;
 	color: #fff;
@@ -77,12 +69,12 @@ div.box-middle label {
 	background: url('../images/pinstripeBG.png') repeat-y;
 }
 
-.register {
+/* .register {
 	position: relative;
 	margin: 0 auto;
 	width: 600px;
 	background: white;
-}
+} */
 
 .register .row {
 	display: inline-block;
@@ -237,13 +229,13 @@ div.box-middle label {
 	height: 48px;
 }
 
-.footer {
+/* .footer {
 	margin: 14px 0;
 	font-size: 11px;
 	text-align: center;
 	color: #ffffff;
 	color: rgba(255, 255, 255, 0.5);
-}
+} */
 
 .footer-links a {
 	color: #ffffff;
