@@ -142,7 +142,7 @@ html,body {
 	margin: 0 auto;
 }
 
-.wrapper { 
+.wrapper>* { 
 	ex: 1 auto;
 	margin: 15px;
 	min-width: 280px;
