@@ -2,31 +2,18 @@ html,body {
 	font-family: Lato, Helvetica, Arial, Tahoma, sans-serif;
 	height: 100%;
 	width: 100%;
+	position : relative;
 }
 
-.create-account-header {
-	background-color: #0a425b;
-	font-family: Lato;
-	font-size: 36px;
-	font-weight: 300;
-	color: #FFFFFF;
-	color: rgb(255, 255, 255);
+
+/* Sticky footer content. Include a div inside body with class wrapper div. Given the class of footer  */
+
+.wrapperdiv {
+	margin : auto;
+	position : relative;
+	min-height : 100%;
 }
 
-.registration {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: -35px auto -34px;
-	/* the bottom margin is the negative value of the footer's height */
-}
-
-.register {
-	position: relative;
-	margin: 0 auto;
-	width: 524px;
-	background: white;
-}
 
 .footer {
 	position: absolute;
@@ -36,6 +23,21 @@ html,body {
 	height: 34px;
 	width: 100%;
 }
+
+
+.create-account-header {
+	background-color: #0a425b;
+	font-family: Lato;
+	font-size: 36px;
+	font-weight: 300;
+	color: #FFFFFF;
+	color: rgb(255, 255, 255);
+	width : 524px;
+}
+
+
+
+
 
 .pacific-background-gradient {
 	background: -moz-linear-gradient(50% 0% -90deg, rgba(174, 218, 233, 1)
